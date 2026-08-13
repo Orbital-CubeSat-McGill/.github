@@ -1,6 +1,6 @@
 <h1 align="center"><span style="color: #d21f26">McGill Rocket Team</span> <br> Orbital CubeSat Division</h1>
 <div style="text-align: center;">
-<img src="/assets/ocs-logo.png" alt="ocs logo" width="50%">
+    <img src="/assets/ocs-logo.png" alt="ocs logo" width="30%">
 </div>
 
 ## About Us
