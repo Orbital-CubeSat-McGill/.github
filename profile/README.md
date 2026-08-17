@@ -63,15 +63,19 @@ docs/[name] # documentation
 ```
 
 - Avoid general and vague names, e.g. `fix/bug` or `feature/work`
-- Don't write your name in the branch, instead write what you do in the branch, e.g. `feature/schematic` instead of `feature/joe`
+- Don't use your name as a branch name, instead write what you do in the branch, e.g. `feature/schematic` instead of `feature/joe`
 
 As for branching, unless you know that you will be merging into another branch that is not `main` (and by consequence opening your new branch from that branch), always branchout from the `main` branch. Trust me, this simplifies merging back to `main` later.
 
 ### Commits and pushing
 
-- Take the time to write a meaningful commit message, even if short. Yes, it sucks and sometimes you don't know what to write, but trust me that added 10 seconds to think and write your commit message will save you lots later. Especially if you need to revert and refer back to previous work.
-- This might already be implemented as a rule in the repos you will work in, but try to **never** push directly into the `main` branch.
-- Instead, work on a branch, create a PR, and have it reviewed. 
+- Take the time to write a meaningful commit message, even if short.
+    - Yes, it sucks and sometimes you don't know what to write, but trust me that added 10 seconds to think and write your commit message will save you lots later. Especially if you need to revert and refer back to previous work.
+- In 95% of ocassions, **never** push directly into the `main` branch.
+    - Instead, work on a branch, create a PR, and have it reviewed/merged to `main`.
+
+> [!TIP]
+> For leads, try to add rules to the repos you manage to restrict pushes to main and force PRs/reviews/approvals. Will save you headaches, especially in messy repos ;)
 
 ### Pull requests and review
 
